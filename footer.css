@@ -1,0 +1,92 @@
+#about-link {
+    width: 150px;
+    margin-left: 350px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #080f53;
+    margin-top: 2%;
+    font-family: monospace;
+    color: white;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.box .footer-content {
+    margin: 20px 0 0 0;
+}
+
+.box li {
+    list-style-type: none;
+    font-size: 1.25em;
+    padding: 8px;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-left ul {
+    width: 200px;
+}
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    font-size: 15px;
+    margin: 0 0 0 10px;
+}
+
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 40px 0 0;
+    display: inline-block;
+}
+
+.footer-content a {
+    text-decoration: none;
+}
+
+.footer-social {
+    margin: 20px 0 0 10px;
+}
+
+.box .footer-content p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.footer-control-icon {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin: 0 2% 0 0;
+}
+
+.footer-logo {
+    margin-top: 10%;
+    text-align: center;
+}
+
+#footer-logo-image {
+    width: 300px;
+    height: auto;
+}
