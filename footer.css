@@ -15,12 +15,6 @@ footer {
     padding: 10px 20px;
 }
 
-.box h1 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
 .box h2 {
     text-align: start;
 }
