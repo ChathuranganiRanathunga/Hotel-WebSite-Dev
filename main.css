@@ -8,6 +8,11 @@
 
 h1 {
     font-family: 'Lora', serif;
+    color: rgb(14, 24, 112);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
 }
 
 header {
@@ -377,6 +382,44 @@ header div ul img {
     background-image: url(./img/ex_new/ex_06.png);
     max-width: 400px;
     max-height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*From the memories*/
+
+.mem-container {
+    grid-area: section-two;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 3px;
+    text-align: center;
+    float: center;
+    padding: 200px 50px 200px 50px;
+    margin: 25px;
+    background-color: #FFF;
+    margin-left: 62.5px;
+    padding-bottom: 3%;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#mem01 {
+    background-image: url(./img/memories/mem_01.png);
+    max-width: 500px;
+    max-height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#mem02 {
+    background-image: url(./img/memories/mem_02.png);
+    max-width: 500px;
+    max-height: 350px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
