@@ -15,6 +15,21 @@ h1 {
     font-weight: 600;
 }
 
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(14, 24, 112);
+    font-size: 1em;
+    padding: 0.5em 0.8em;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.8em;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
 header {
     height: 40px;
     background-color: white;
@@ -425,14 +440,17 @@ header div ul img {
     background-size: cover;
 }
 
-.container {
+
+/*Offers*/
+
+.offers-container {
     grid-area: section-two;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 500px;
+    max-width: 400px;
     margin: 3px;
     text-align: center;
     float: center;
-    padding: 20px 20px;
+    padding: 0px 0px;
     margin: 25px;
     background-color: #FFF;
     margin-left: 62.5px;
@@ -440,16 +458,53 @@ header div ul img {
     border-radius: 8px;
 }
 
-.container a:hover {
-    color: #fff;
-    background-color: rgb(48, 46, 46);
+.offers-container p {
+    color: rgba(0, 0, 0, 0.6);
+    padding: top 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8em;
 }
 
-.container .description {
-    margin-bottom: 15px;
+.offers-container button {
+    pointer-events: auto;
+    cursor: pointer;
+    background: white;
+    border-color: rgb(14, 24, 112);
+    border-width: 0.1em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    color: rgb(14, 24, 112);
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 1em;
 }
 
-.our-destination .container .description #des-title {
-    color: RGB(244, 100, 100);
-    font-family: 'Lora', serif;
+
+/*view all links */
+
+#view-all {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+#view-all a {
+    color: grey;
+}
+
+
+/*img-before footer*/
+
+.before-footer-img #bf-img {
+    width: 100%;
+    max-height: 40%;
+    padding: 0;
+    margin: 0;
 }
