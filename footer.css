@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 footer {
     grid-area: footer;
-    background-color: #080f53;
-    margin-top: 2%;
-    font-family: monospace;
+    background-color: rgb(14, 24, 112);
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
     color: white;
 }
 
@@ -17,6 +20,9 @@ footer {
 
 .box h2 {
     text-align: start;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 1.2em;
 }
 
 .box .footer-content {
@@ -26,47 +32,25 @@ footer {
 
 .box li {
     list-style-type: none;
-    font-size: 1.25em;
+    font-size: 1em;
     padding: 8px;
     margin: 10px;
     text-align: start;
+}
+
+.box li a {
+    color: rgb(196, 196, 196);
 }
 
 .footer-left ul {
     width: 200px;
 }
 
-.footer-icon {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-    font-size: 15px;
-    margin: 0 0 0 10px;
-}
-
-.footer-social-icon {
-    width: 40px;
-    height: 40px;
-    margin: 0 40px 0 0;
-    display: inline-block;
-}
-
 .footer-content a {
     text-decoration: none;
-}
-
-.footer-social {
-    margin: 20px 0 0 10px;
 }
 
 .box .footer-content p {
     text-align: justify;
     font-size: 15px;
-}
-
-.footer-control-icon {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-    margin: 0 2% 0 0;
 }
