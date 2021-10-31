@@ -248,6 +248,49 @@ header div ul img {
 #our-destination #shangri-la #location {
     max-width: 40%;
     max-height: 30%;
+    border-radius: 10px;
+}
+
+#our-destination .des-container #hotel-detail #dis {
+    padding-bottom: 30px;
+}
+
+#our-destination .des-container #hotel-detail #dis #des-title {
+    color: rgb(14, 24, 112);
+    font-family: 'Lora', serif;
+}
+
+.des-container {
+    grid-area: section-two;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: 3px;
+    text-align: start;
+    float: center;
+    padding: 20px 20px;
+    margin: 25px;
+    background-color: #FFF;
+    margin-left: 62.5px;
+    padding-bottom: 3%;
+    border-radius: 8px;
+}
+
+#our-destination .des-container #hotel-detail #about-hotel {
+    padding-bottom: 30px;
+}
+
+#our-destination .des-container #hotel-detail .btn-more #dis-more {
+    pointer-events: auto;
+    cursor: pointer;
+    background: rgb(14, 24, 112);
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
 }
 
 
@@ -259,14 +302,13 @@ header div ul img {
     max-width: 500px;
     margin: 3px;
     text-align: center;
-    font-family: arial;
     float: center;
     padding: 20px 20px;
     margin: 25px;
     background-color: #FFF;
     margin-left: 62.5px;
     padding-bottom: 3%;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .container a:hover {
