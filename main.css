@@ -333,6 +333,53 @@ header div ul img {
     max-width: 400px;
     max-height: 250px;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container02 {
+    background-image: url(./img/ex_new/ex_02.png);
+    max-width: 400px;
+    max-height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container03 {
+    background-image: url(./img/ex_new/ex_03.png);
+    max-width: 400px;
+    max-height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container04 {
+    background-image: url(./img/ex_new/ex_04.png);
+    max-width: 400px;
+    max-height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container05 {
+    background-image: url(./img/ex_new/ex_05.png);
+    max-width: 400px;
+    max-height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container06 {
+    background-image: url(./img/ex_new/ex_06.png);
+    max-width: 400px;
+    max-height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .container {
