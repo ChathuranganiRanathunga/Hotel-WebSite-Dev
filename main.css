@@ -296,6 +296,45 @@ header div ul img {
 
 /*Experience New*/
 
+#Experience-Something-new #ex-title {
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: rgb(14, 24, 112);
+    padding-top: 1.5em;
+    padding-bottom: 0.4em;
+}
+
+#Experience-Something-new #ex-dis {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.new-container {
+    grid-area: section-two;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 3px;
+    text-align: center;
+    float: center;
+    padding: 150px 50px 150px 50px;
+    margin: 25px;
+    background-color: #FFF;
+    margin-left: 62.5px;
+    padding-bottom: 3%;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container01 {
+    background-image: url(./img/ex_new/ex_01.png);
+    max-width: 400px;
+    max-height: 250px;
+    background-repeat: no-repeat;
+}
+
 .container {
     grid-area: section-two;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
