@@ -212,3 +212,30 @@ header div ul img {
         opacity: 1
     }
 }
+
+
+/*Experience New */
+
+.container {
+    grid-area: section-two;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 3px;
+    text-align: center;
+    font-family: arial;
+    float: center;
+    padding: 20px 20px;
+    margin: 25px;
+    background-color: #FFF;
+    margin-left: 62.5px;
+    padding-bottom: 3%;
+}
+
+.container a:hover {
+    color: #fff;
+    background-color: rgb(48, 46, 46);
+}
+
+.container .description {
+    margin-bottom: 15px;
+}
