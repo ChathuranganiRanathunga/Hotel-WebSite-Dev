@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+h1 {
+    font-family: 'Lora', serif;
+}
+
 header {
     height: 40px;
     background-color: white;
@@ -214,8 +218,40 @@ header div ul img {
     }
 }
 
+#our-destination {
+    align-content: center;
+}
 
-/*Experience New */
+#our-destination #title {
+    text-align: center;
+    color: rgb(14, 24, 112);
+    font-weight: 600;
+}
+
+#our-destination #button {
+    align-items: center;
+    background-color: transparent;
+    color: rgb(100, 98, 98);
+    padding: 15px 32px;
+    text-align: center;
+    /* display: inline-block; */
+    border-radius: 8px;
+    border-color: none;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    display: grid;
+}
+
+#our-destination #shangri-la #location {
+    max-width: 40%;
+    max-height: 30%;
+}
+
+
+/*Experience New*/
 
 .container {
     grid-area: section-two;
@@ -230,6 +266,7 @@ header div ul img {
     background-color: #FFF;
     margin-left: 62.5px;
     padding-bottom: 3%;
+    border-radius: 10px;
 }
 
 .container a:hover {
@@ -239,4 +276,9 @@ header div ul img {
 
 .container .description {
     margin-bottom: 15px;
+}
+
+.our-destination .container .description #des-title {
+    color: RGB(244, 100, 100);
+    font-family: 'Lora', serif;
 }
