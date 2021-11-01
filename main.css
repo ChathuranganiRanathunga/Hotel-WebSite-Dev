@@ -17,8 +17,6 @@ h1 {
 
 h3 {
     font-family: 'Open Sans', sans-serif;
-    color: rgb(14, 24, 112);
-    font-size: 1em;
     padding: 0.5em 0.8em;
 }
 
@@ -33,8 +31,6 @@ h4 {
 header {
     height: 40px;
     background-color: white;
-    top: 0px;
-    left: 0px;
     padding: 8 0 0 0;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -53,12 +49,16 @@ header ul li {
     display: inline-block;
     cursor: pointer;
     width: 10%;
+    padding-top: 8px;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600px;
+    font-size: 1em;
+    color: rgb(14, 24, 112);
 }
 
 .header ul li a {
     display: inline-block;
-    color: white;
     padding: 10px 20px;
     text-decoration: none;
     position: relative;
@@ -93,7 +93,7 @@ header div ul img {
     margin: 0px;
     padding: 0px;
     text-align: center;
-    background-color: rgba(0, 71, 54, 0.4)
+    background-color: rgba(0, 0, 0, 0.4)
 }
 
 .navbar ul li {
@@ -103,7 +103,7 @@ header div ul img {
 }
 
 .navbar ul li:hover {
-    background-color: rgba(62, 59, 230, 0.6)
+    background-color: rgba(45, 34, 196, 0.9)
 }
 
 .navbar ul li a {
@@ -113,6 +113,14 @@ header div ul img {
     text-decoration: none;
     position: relative;
     transition: background-color 0.5 ease;
+}
+
+.navbar button {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 
 
@@ -251,8 +259,11 @@ header div ul img {
 #our-destination #button {
     align-items: center;
     background-color: transparent;
-    color: rgb(100, 98, 98);
-    padding: 15px 32px;
+    color: #b4adad;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
     /* display: inline-block; */
     border-radius: 8px;
@@ -263,12 +274,10 @@ header div ul img {
     transform: translate(-50%, -50%);
     justify-content: center;
     display: grid;
-}
-
-#our-destination #shangri-la #location {
-    max-width: 40%;
-    max-height: 30%;
-    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    border-color: rgb(14, 24, 112);
+    border-width: 0.1em;
 }
 
 #our-destination .des-container #hotel-detail #dis {
@@ -280,19 +289,50 @@ header div ul img {
     font-family: 'Lora', serif;
 }
 
-.des-container {
-    grid-area: section-two;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 250px;
-    margin: 3px;
-    text-align: start;
-    float: center;
-    padding: 20px 20px;
-    margin: 25px;
-    background-color: #FFF;
-    margin-left: 62.5px;
-    padding-bottom: 3%;
+#our-destination section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .left {
+    width: 60%;
+    height: 600px;
+    background-image: url(./img/Shangri-la\ Colombo.png);
+    background-repeat: no-repeat;
+    position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.container .right {
+    width: 40%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
     border-radius: 8px;
+    margin-left: -150px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#our-destination .container .left #location {
+    width: 600px;
+    height: 550px;
+    border-radius: 10px;
 }
 
 #our-destination .des-container #hotel-detail #about-hotel {
@@ -331,27 +371,33 @@ header div ul img {
     color: rgba(0, 0, 0, 0.8);
 }
 
+.ex-detail-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 20px;
+}
+
 .new-container {
-    grid-area: section-two;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    margin: 3px;
+    margin: 10px;
     text-align: center;
-    float: center;
+    float: left;
     padding: 150px 50px 150px 50px;
-    margin: 25px;
     background-color: #FFF;
-    margin-left: 62.5px;
-    padding-bottom: 3%;
+    padding-bottom: 10px;
     border-radius: 8px;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
 }
 
 #container01 {
     background-image: url(./img/ex_new/ex_01.png);
-    max-width: 400px;
-    max-height: 250px;
+    width: 400px;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -359,8 +405,8 @@ header div ul img {
 
 #container02 {
     background-image: url(./img/ex_new/ex_02.png);
-    max-width: 400px;
-    max-height: 250px;
+    width: 400px;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -368,8 +414,8 @@ header div ul img {
 
 #container03 {
     background-image: url(./img/ex_new/ex_03.png);
-    max-width: 400px;
-    max-height: 250px;
+    width: 400px;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -377,8 +423,8 @@ header div ul img {
 
 #container04 {
     background-image: url(./img/ex_new/ex_04.png);
-    max-width: 400px;
-    max-height: 250px;
+    width: 400px;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -386,8 +432,8 @@ header div ul img {
 
 #container05 {
     background-image: url(./img/ex_new/ex_05.png);
-    max-width: 400px;
-    max-height: 250px;
+    width: 400px;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -395,8 +441,8 @@ header div ul img {
 
 #container06 {
     background-image: url(./img/ex_new/ex_06.png);
-    max-width: 400px;
-    max-height: 250px;
+    width: 400px;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -405,10 +451,20 @@ header div ul img {
 
 /*From the memories*/
 
+.mem-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 20px;
+}
+
 .mem-container {
     grid-area: section-two;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 400px;
+    width: 600px;
+    height: 400px;
     margin: 3px;
     text-align: center;
     float: center;
@@ -420,6 +476,7 @@ header div ul img {
     border-radius: 8px;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
 }
 
 #mem01 {
@@ -442,6 +499,15 @@ header div ul img {
 
 
 /*Offers*/
+
+.dis-offers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 20px;
+}
 
 .offers-container {
     grid-area: section-two;

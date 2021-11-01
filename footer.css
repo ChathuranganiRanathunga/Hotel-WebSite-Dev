@@ -54,3 +54,22 @@ footer {
     text-align: justify;
     font-size: 15px;
 }
+
+.footer .box button {
+    pointer-events: auto;
+    cursor: pointer;
+    background: white;
+    border-color: rgb(14, 24, 112);
+    border-width: 0.1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    color: rgb(14, 24, 112);
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 1em;
+}
